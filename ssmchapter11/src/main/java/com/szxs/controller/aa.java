@@ -5,7 +5,5 @@ public class aa {
     int b;
     int i;
     int a;
-    int pp;
-    int pc;
-    int csz;
+
 }
