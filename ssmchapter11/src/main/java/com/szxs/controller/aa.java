@@ -7,4 +7,5 @@ public class aa {
     int a;
     int pp;
     int pc;
+    int csz;
 }
