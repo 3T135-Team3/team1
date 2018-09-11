@@ -32,6 +32,14 @@ public class UserController {
         userService.addUser(new User("李四"));
         return "index";
     }
+    //陈璐改
+    public String saveUserch(@Valid User u, BindingResult br){
+        if(br.hasErrors()){
+            return "error";
+        }
+        userService.addUser(new User("李四"));
+        return "index";
+    }
 
 
 }
