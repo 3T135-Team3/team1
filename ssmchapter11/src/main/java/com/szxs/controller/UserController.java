@@ -23,7 +23,7 @@ public class UserController {
         model.addAttribute("users",users);
         return "index";
     }
-
+//邱烨改
     @RequestMapping("/saveUser.html")
     public String saveUser(@Valid User u, BindingResult br){
         if(br.hasErrors()){
